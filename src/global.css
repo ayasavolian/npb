@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Thin, Roboto, Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #505050;
+}
+
+/* general reusable classes */ 
+
+.font-size-24 {
+	font-size: 24px;
+}
+
+.font-size-28 {
+	font-size: 28px;
+}
+
+.font-size-22 {
+	font-size: 22px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.font-color-white {
+	color: #fff;
+}
+
+.font-color-green {
+	color: #7cda9d;
+}
+
+.background-color-green {
+	background-color: #7cda9d;
+}
+
+.font-weight-100 {
+	font-weight: 100;
+}
+
+.font-weight-400 {
+	font-weight: 100;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.display {
+	display: inline-block;
+}
+
+.margin-top-35 {
+	margin-top: 35px;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+/* body info */ 
+
+.body-container {
+	width : 100%;
+	display: inline-block;
+}
+
+.body-inner-container {
+	width : 1050px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.body-inner-container-content {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(80,80,80,0.35);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(80,80,80,0.35);
+	box-shadow: 0px 2px 5px 0px rgba(80,80,80,0.35);
+	width: 100%;
+}
