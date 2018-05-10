@@ -40,7 +40,7 @@ image_dir
 
 """
 from django.db import models
-from user.models import User
+from user.models.models import User
 import django
 
 
@@ -76,4 +76,4 @@ class Post(models.Model):
     last_modified_by = models.ForeignKey(User, on_delete="CASCADE", related_name='last_modified_by')
     created_date = models.DateTimeField(default=django.utils.timezone.now)
     modified_timestamp = models.DateTimeField(default=django.utils.timezone.now)
-
+    article_user_status = models.CharField(max_length=255, null=True)

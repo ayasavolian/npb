@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import User, UserRole, UserToVisitor, Visitor, Capability, Role, RoleCapability
+from user.models.models import User, UserRole, UserToVisitor, Visitor, Capability, Role, RoleCapability
 
 admin.site.register(User)
 admin.site.register(UserRole)

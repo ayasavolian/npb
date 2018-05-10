@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './header.css';
 import './global.css'
+import './header.css';
 import FaFacebookOfficial from 'react-icons/lib/fa/facebook-official';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 import FaTwitter from 'react-icons/lib/fa/twitter';
@@ -114,7 +114,9 @@ class Header extends Component {
         <div className="header-container">
           <div className="header-inner-container font-color-white">
             <div className="header-logo font-size-24 float-left display">
-              newpiggybank
+              <Link to="/" component={App}>
+                newpiggybank
+              </Link>
             </div>
             <div className="header-menu font-size-28 float-right display">
                 <div className="header-menu-item display">

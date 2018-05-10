@@ -1,70 +1,7 @@
-"""
-
-User
-
-user_id
-user_uuid
-email
-first_name
-last_name
-
-User Role
-
-user_role_uuid
-user_role_id
-user_id
-role_id
-
-Role
-
-role_id
-role_name
-
-Role Capability
-
-role_capability_id
-role_id
-capability_id
-
-Capability
-
-capability_id
-capability
-
-Visitor
-
-visitor_uuid
-visitor_id
-session_id
-
-User to Visitor
-
-visitor_to_user_id
-visitor_id
-user_id
-
-Visitor Web Page
-
-visitor_id
-visited_page_uuid
-page_id
-
-Action
-
-action_id
-action
-
-Web Page Action
-
-web_page_action_uuid
-web_page_action_id
-action_id
-web_page_id
-"""
 from django.db import models
-from datetime import datetime
 from database_util.database_util import uuid_generator
 import django
+
 
 class Role(models.Model):
     role_id = models.AutoField(primary_key=True)

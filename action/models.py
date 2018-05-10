@@ -18,7 +18,7 @@ action_id
 web_page_id
 """
 from django.db import models
-from user.models import Visitor
+from user.models.models import Visitor
 from post.models import Post
 import django
 

@@ -36,6 +36,7 @@
     width: 100px;
     transform: translateY(250px);
     top: 0;
+    color: #7cda9d;
 }
 
 .post-side-bar-option {
@@ -64,15 +65,120 @@
 	width: 35px;
 }
 
+.bigger-thumbs-option {
+    border: 1px solid #7cda9d;
+    padding: 10px;
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.extra-padding {
+	padding-top: 15px	;
+}
+
+.bigger-thumbs-up {
+	width: 50px;
+}
+
 .post-icon {
 	color: #7cda9d;
 }
 
-
 .post-side-bar-social {
-	color: #7cda9d;
     width: 40px;
     margin: 0 auto;
     height: 40px;
     margin-top: 25px;
-    cursor: pointer;}
+    cursor: pointer;
+}
+
+.post-content-bottom-section {
+    background-color: #f9f9f9;
+    border-top: 1px solid #505050;
+}
+
+.share-content {
+	margin-right: 25px;
+	color: #7cda9d;
+}
+
+.post-content-bottom-section-container {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.share-content-container {
+	margin-left: 100px;
+}
+
+.post-content-bottom-text-container {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.post-content-bottom-text-larger {
+	font-weight: 800;
+	padding-bottom: 5px;
+}
+
+.post-content-bottom-text-smaller {
+	padding-bottom: 15px;
+}
+
+.post-content-like-and-share-container {
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.post-content-like-and-share-inner-container {
+	margin: 0 auto;
+    width: 276px;
+}
+
+.recommended-articles-container {
+	width: 100%;
+	text-align: center;
+}
+
+.recommended-articles-inner-container {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #7cda9d;
+	text-transform: uppercase;
+}
+
+.recommended-articles-sub-container {
+	padding-bottom: 15px;
+}
+
+.recommended-post-article {
+	width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.recommended-post-article-image {
+	width: 100%;
+}
+
+.recommended-post-article-title-container {
+	margin-top: 15px;
+    margin-bottom: 15px;
+    width: 290px;
+}
+
+.recommended-post-article a {
+	display: inline-block;
+	color: #505050;
+	text-decoration: none;
+}
+
+.recommended-post-article a:hover {
+	color: #7cda9d;
+}

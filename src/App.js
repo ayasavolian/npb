@@ -12,39 +12,41 @@ import registerServiceWorker from './registerServiceWorker';
 
 const PAYLOAD = {
   articles : [{
-    post_uuid : "TEST",
-    post_name : "new-piggy-bank-mastering-money-for-gen-y",
-    section : {
-      section : "crypto currency investing"
+      post_uuid : "123-456-789",
+      post_name : "new-piggy-bank-mastering-money-for-gen-y",
+      section : {
+        section : "personal finance"
+      },
+      header_image : {
+        header_image_uuid : "TEST",
+        image_dir : "green-piggy.jpg"
+      },
+      header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
+      post_status : {
+        post_status : "approved"
+      },
+      title : "New Piggy Bank : Mastering Money for Gen Y2",
+      post_component : "TestComponent",
+      body : "<p>Hey this <strong>editor</strong> rocks 😀😜</p><p><span style=\"font-size: 30px;\">This is a test</span></p><a href = \"https://www.google.com\">this is a test reference</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <strong>Bolded text. </strong></p><p><strong>Referencing an image. </strong></p><img src=\"https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg\" alt=\"undefined\"><p>This is another test.</p>",
+      read_time : 10,
+      upvotes : 274,
+      status : "a quick read on how we're trying to help you at New Piggy Bank",
+      created_by : {
+        "user_uuid": "81822920",
+        "email": "edward@newpiggybank.com",
+        "first": "Edward",
+        "last": "Gorbis",
+        "photo": "eddie_photo.png"
+      },
+      last_modified_by : {
+        "user_uuid": "81822920",
+        "email": "edward@newpiggybank.com",
+        "first": "Edward",
+        "last": "Gorbis"
+      },
+      created_date : "2018-04-07 16:27:03",
+      modified_timestamp : "2018-04-07 16:27:03"
     },
-    header_image : {
-      header_image_uuid : "TEST",
-      image_dir : "green-piggy.jpg"
-    },
-    header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
-    post_status : {
-      post_status : "approved"
-    },
-    title : "New Piggy Bank : Mastering Money for Gen Y",
-    post_component : "TestComponent",
-    body : "<p><span style=\"font-size: 30px;\">This is a test</span></p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <strong>Bolded text. </strong></p><p><strong>Referencing an image. </strong></p><img src=\"https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg\" alt=\"undefined\"><p>This is another test.</p>",
-    read_time : 10,
-    upvotes : 274,
-    created_by : {
-      "user_uuid": "81822920",
-      "email": "edward@newpiggybank.com",
-      "first": "Edward",
-      "last": "Gorbis"
-    },
-    last_modified_by : {
-      "user_uuid": "81822920",
-      "email": "edward@newpiggybank.com",
-      "first": "Edward",
-      "last": "Gorbis"
-    },
-    created_date : "2018-04-07 16:27:03",
-    modified_timestamp : "2018-04-07 16:27:03"
-  },
   {
     post_uuid : "TEST",
     post_name : "new-piggy-bank-mastering-money-for-gen-y",
@@ -208,11 +210,13 @@ const FULL_PAYLOAD = {
       body : "<p>Hey this <strong>editor</strong> rocks 😀😜</p><p><span style=\"font-size: 30px;\">This is a test</span></p><a href = \"https://www.google.com\">this is a test reference</a><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <strong>Bolded text. </strong></p><p><strong>Referencing an image. </strong></p><img src=\"https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg\" alt=\"undefined\"><p>This is another test.</p>",
       read_time : 10,
       upvotes : 274,
+      status : "a quick read on how we're trying to help you at New Piggy Bank",
       created_by : {
         "user_uuid": "81822920",
         "email": "edward@newpiggybank.com",
         "first": "Edward",
-        "last": "Gorbis"
+        "last": "Gorbis",
+        "photo": "eddie_photo.png"
       },
       last_modified_by : {
         "user_uuid": "81822920",
