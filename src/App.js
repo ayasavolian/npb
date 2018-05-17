@@ -1220,6 +1220,16 @@ const FULL_PAYLOAD = {
   ]]
 }
 
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
 
 
 class App extends Component {
@@ -1248,6 +1258,17 @@ class App extends Component {
   }
 
   componentDidMount() {
+    var csrftoken = readCookie('csrftoken');
+    fetch(window.location.origin + "/api/user/session", {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        "X-CSRFToken": csrftoken
+      },
+      credentials: 'same-origin',
+      body: JSON.stringify({})
+    })
     const search = this.props.location.search; // could be '?foo=bar'
     const params = new URLSearchParams(search);
     const filter = params.get("filter");

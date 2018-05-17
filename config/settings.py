@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # 'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -72,6 +72,12 @@ TEMPLATES = [
         },
     },
 ]
+
+REST_FRAMEWORK = {
+    'FORM_METHOD_OVERRIDE': None,
+    'FORM_CONTENT_OVERRIDE': None,
+    'FORM_CONTENTTYPE_OVERRIDE': None
+}
 
 STATICFILES_DIRS = [
   os.path.join(BASE_DIR, 'build/static'),
@@ -132,3 +138,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = 'users/martinyasavolian/desktop/investor_site/static/'
 
 MEDIA_ROOT = 'users/martinyasavolian/desktop/investor_site/uploads/'
+
+SESSION_SAVE_EVERY_REQUEST = True

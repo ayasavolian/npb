@@ -40,7 +40,7 @@ image_dir
 
 """
 from django.db import models
-from user.models.models import User
+from user.dal.models.user_model import User
 import django
 
 

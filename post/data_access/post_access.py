@@ -1,5 +1,5 @@
 from post.models import Post
-from database_util.database_util import uuid_generator
+from util.database_util.database_util import uuid_generator
 
 
 class PostAccess(object):
