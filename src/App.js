@@ -1231,6 +1231,25 @@ function readCookie(name) {
     return null;
 }
 
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function createSessionId() {
+  function s4() {
+    return Math.floor((1 + Math.random()) * 0x10000)
+      .toString(16)
+      .substring(1);
+  }
+  return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+}
+
 
 class App extends Component {
   constructor(props) {
@@ -1258,7 +1277,13 @@ class App extends Component {
   }
 
   componentDidMount() {
+    console.log("mounted");
     var csrftoken = readCookie('csrftoken');
+    var sessionid = readCookie('sessionid');
+    if (sessionid === null){
+      setCookie("sessionid", createSessionId(), 365);
+    }
+    console.log(readCookie('sessionid'));
     fetch(window.location.origin + "/api/user/session", {
       method: 'POST',
       headers: {

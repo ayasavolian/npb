@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5f15bd-128f-42f1-a38c-fa2e78b253cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/user/resources/session_resource.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_util/database_util.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/data_access/post_access.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/data_access/post_access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newsletter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/newsletter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newsletter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/newsletter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/capability_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/role.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/role_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/role_capability.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/role_capability_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/user_role.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/user_role_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/user_to_visitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/user_to_visitor_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models/visitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/visitor_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/schemas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/schemas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.6/site-packages/rest_framework/schemas/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dal/action/user_to_visitor_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dal/action/visitor_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/action/visitor_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dal/models/user_to_visitor_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dal/models/visitor_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/visitor_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/resources/user_resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/resources/user_resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/services/visitor_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/services/visitor_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/database_util/database_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/database_util/database_util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,12 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user_resource.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/resources/user_resource.py">
+      <file leaf-file-name="session_resource.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/resources/session_resource.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
-                <element signature="e#1#37#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,10 +40,31 @@
       <file leaf-file-name="user_service.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/services/user_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#326#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_resource.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/resources/user_resource.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#1#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,32 +73,17 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="520">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/resources/urls.py">
+      <file leaf-file-name="visitor_service.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/services/visitor_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_action.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/dal/action/user_action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -100,8 +91,23 @@
       <file leaf-file-name="visitor_action.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/dal/action/visitor_action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/dal/models/visitor_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,39 +119,6 @@
               <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_to_visitor_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/dal/models/user_to_visitor_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="visitor_service.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/services/visitor_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_to_visitor_action.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/dal/action/user_to_visitor_action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,6 +145,7 @@
       <find>views.py</find>
       <find>CSRF</find>
       <find>SESSION_COO</find>
+      <find>TM</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/post/urls.py" />
         <option value="$PROJECT_DIR$/post/data_access/PostStatusAccess.py" />
         <option value="$PROJECT_DIR$/post/views.py" />
@@ -214,26 +187,27 @@
         <option value="$PROJECT_DIR$/user/dal/models/user_to_visitor.py" />
         <option value="$PROJECT_DIR$/user/dal/__init__.py" />
         <option value="$PROJECT_DIR$/user/dal/models/role_capability.py" />
-        <option value="$PROJECT_DIR$/user/admin.py" />
         <option value="$PROJECT_DIR$/post/models.py" />
         <option value="$PROJECT_DIR$/action/models.py" />
         <option value="$PROJECT_DIR$/user/dal/action/session_action.py" />
         <option value="$PROJECT_DIR$/config/urls.py" />
-        <option value="$PROJECT_DIR$/util/database_util/database_util.py" />
         <option value="$PROJECT_DIR$/user/dal/models/user_model.py" />
-        <option value="$PROJECT_DIR$/user/services/visitor_service.py" />
         <option value="$PROJECT_DIR$/user/services/user_to_visitor_service.py" />
         <option value="$PROJECT_DIR$/user/resources/session_view.py" />
         <option value="$PROJECT_DIR$/user/resources/user_resource.oy.py" />
-        <option value="$PROJECT_DIR$/user/resources/session_resource.py" />
         <option value="$PROJECT_DIR$/user/resources/urls.py" />
-        <option value="$PROJECT_DIR$/config/settings.py" />
-        <option value="$PROJECT_DIR$/user/dal/action/visitor_action.py" />
         <option value="$PROJECT_DIR$/user/dal/action/user_action.py" />
         <option value="$PROJECT_DIR$/user/dal/models/user_to_visitor_model.py" />
         <option value="$PROJECT_DIR$/user/dal/action/user_to_visitor_action.py" />
-        <option value="$PROJECT_DIR$/user/services/user_service.py" />
+        <option value="$PROJECT_DIR$/util/database_util/database_util.py" />
+        <option value="$PROJECT_DIR$/user/resources/session_resource.py" />
+        <option value="$PROJECT_DIR$/user/dal/models/visitor_model.py" />
+        <option value="$PROJECT_DIR$/user/services/visitor_service.py" />
+        <option value="$PROJECT_DIR$/config/settings.py" />
         <option value="$PROJECT_DIR$/user/resources/user_resource.py" />
+        <option value="$PROJECT_DIR$/user/dal/action/visitor_action.py" />
+        <option value="$PROJECT_DIR$/user/services/user_service.py" />
+        <option value="$PROJECT_DIR$/user/admin.py" />
       </list>
     </option>
   </component>
@@ -265,24 +239,33 @@
             <path>
               <item name="npb" type="b2602c69:ProjectViewProjectNode" />
               <item name="npb" type="462c0819:PsiDirectoryNode" />
-              <item name="investor_site_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="npb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="npb" type="462c0819:PsiDirectoryNode" />
-              <item name="investor_site_app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="npb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="npb" type="462c0819:PsiDirectoryNode" />
-              <item name="investor_site_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="npb" type="b2602c69:ProjectViewProjectNode" />
               <item name="npb" type="462c0819:PsiDirectoryNode" />
               <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="npb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="npb" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="npb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="npb" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="npb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="npb" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="data_access" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="npb" type="b2602c69:ProjectViewProjectNode" />
@@ -400,11 +383,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17023809" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21930745" />
@@ -419,7 +402,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,33 +438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/services/user_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/resources/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/dal/action/user_action.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -536,13 +491,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/post/data_access/post_access.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/build/static/css/index.css" />
     <entry file="file://$PROJECT_DIR$/build/static/js/index.js" />
@@ -596,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -624,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/dal/models/visitor_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -645,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -688,27 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/database_util/database_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/services/user_to_visitor_service.py" />
-    <entry file="file://$PROJECT_DIR$/user/resources/session_resource.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/resources/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="135">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -716,33 +623,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/dal/action/visitor_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/services/visitor_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/dal/action/user_action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="465">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/database_util/database_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -757,12 +653,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/dal/models/visitor_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/resources/session_resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/dal/models/user_to_visitor_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/resources/user_resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#1#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/services/visitor_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/dal/action/visitor_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,21 +727,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/services/user_service.py">
+    <entry file="file://$PROJECT_DIR$/user/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/resources/user_resource.py">
+    <entry file="file://$PROJECT_DIR$/post/data_access/post_access.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="315">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/data_access/image_access.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/data_access/post_status_access.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/data_access/section_access.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/services/user_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
-            <element signature="e#1#37#0" expanded="true" />
+            <element signature="e#326#354#0" expanded="true" />
           </folding>
         </state>
       </provider>

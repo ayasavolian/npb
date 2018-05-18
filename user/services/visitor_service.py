@@ -13,6 +13,8 @@ class VisitorService(object):
         self.visitor = visitor
         return visitor
 
+    def set_visitor_user(self, user):
+        return VisitorAction(self.visitor.session_id).set_visitor_user(user)
 
 
 

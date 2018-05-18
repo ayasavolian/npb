@@ -19,3 +19,11 @@ class VisitorAction(object):
         visitor = Visitor(visitor_uuid=uuid_generator(), session_id=self.session_id)
         visitor.save()
         return visitor
+
+    def set_visitor_user(self, user):
+        visitor = self.get_visitor()
+        try:
+            visitor.user_id = user
+            visitor.save()
+        except Exception as e:
+            print(e)
