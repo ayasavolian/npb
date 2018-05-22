@@ -1,6 +1,6 @@
 from user.dal.models.visitor_model import Visitor
-from util.database_util.database_util import uuid_generator
 from django.core.exceptions import ObjectDoesNotExist
+import uuid
 
 
 class VisitorAction(object):
@@ -16,7 +16,7 @@ class VisitorAction(object):
         return visitor
 
     def create_visitor(self):
-        visitor = Visitor(visitor_uuid=uuid_generator(), session_id=self.session_id)
+        visitor = Visitor(visitor_uuid=uuid.uuid4(), session_id=self.session_id)
         visitor.save()
         return visitor
 

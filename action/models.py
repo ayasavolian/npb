@@ -19,7 +19,7 @@ web_page_id
 """
 from django.db import models
 from user.dal.models.visitor_model import Visitor
-from post.models import Post
+from post.dal.models.post_model import Post
 import django
 
 

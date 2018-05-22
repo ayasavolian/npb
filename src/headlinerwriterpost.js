@@ -28,7 +28,7 @@ class HeadlinerWriterPost extends Component {
             {this.props.article.created_by.first} {this.props.article.created_by.last}
           </div>
           <div className = "writer-status">
-            {this.props.article.status}
+            {this.props.article.article_user_status}
           </div>
         </div>
       </div>

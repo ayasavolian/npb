@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
+    'rest_framework',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
@@ -73,10 +74,18 @@ TEMPLATES = [
     },
 ]
 
+# added in default authentication classes and default permissions classes
+# for rest api auth
 REST_FRAMEWORK = {
     'FORM_METHOD_OVERRIDE': None,
     'FORM_CONTENT_OVERRIDE': None,
-    'FORM_CONTENTTYPE_OVERRIDE': None
+    'FORM_CONTENTTYPE_OVERRIDE': None,
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'rest_framework.authentication.TokenAuthentication',
+    # ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     'rest_framework.permissions.IsAuthenticated',
+    # )
 }
 
 STATICFILES_DIRS = [
@@ -121,7 +130,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'utc'
 
 USE_I18N = True
 

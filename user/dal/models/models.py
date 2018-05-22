@@ -1,6 +1,7 @@
 from django.db import models
 from util.database_util.database_util import uuid_generator
 import django
+import uuid
 
 
 class Role(models.Model):

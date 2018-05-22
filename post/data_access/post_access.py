@@ -1,5 +1,6 @@
-from post.models import Post
+from post.dal.models.post_model import Post
 from util.database_util.database_util import uuid_generator
+import uuid
 
 
 class PostAccess(object):
@@ -9,7 +10,7 @@ class PostAccess(object):
         try:
             post = Post.objects.get(post_uuid=post_uuid)
         except Exception as e:
-            post = Post.objects.create(post_uuid=uuid_generator(), section_id = section_id,
+            post = Post.objects.create(post_uuid=uuid.uuid4(), section_id = section_id,
                                       header_image_id = header_image_id, post_status_id = post_status_id,
                                       title_dir = title, body_dir = body,
                                       read_time = read_time, approved = approved, upvotes = upvotes,

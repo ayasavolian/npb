@@ -10,7 +10,9 @@ def session_resource(request):
     if request.method == 'POST':
         session_id = request.COOKIES.get('sessionid')
         csrf_token = request.COOKIES.get('csrftoken')
+        print(csrf_token)
         if csrf_token is None:
+            print("inside")
             rotate_token(request)
         if session_id is not None:
             VisitorService().get_or_create_visitor(session_id=session_id)
