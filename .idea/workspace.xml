@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5f15bd-128f-42f1-a38c-fa2e78b253cb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/data_access/image_access.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/data_access/post_access.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/data_access/post_access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/data_access/post_status_access.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/data_access/section_access.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/post/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headlinerwriterpost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/headlinerwriterpost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/action/user_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/action/user_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/action/visitor_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/action/visitor_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/models/user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/models/user_role_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/user_role_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dal/models/visitor_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/dal/models/visitor_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/resources/session_resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/resources/session_resource.py" afterDir="false" />
-    </list>
+    <list default="true" id="8e5f15bd-128f-42f1-a38c-fa2e78b253cb" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +71,8 @@
       <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="450">
+              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -347,7 +321,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.dev.js&#10;urls.py&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/resources/urls.py&#10;index.html&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/index.html&#10;settings.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/config/settings.py&#10;webpackdev&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;htmlwe&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;htmlwebpa&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;webpack.config&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-fontawesome/examples/webpack.config.js&#10;webpack.config.prod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.prod.js&#10;webpack.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.dev.js&#10;user_sess&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_admin_session_action.py&#10;user_model&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;user_&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_act&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_mod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;manif&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json&#10;manifest&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json" />
+    <property name="SearchEverywhereHistoryKey" value="webpack&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;urls.py&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/resources/urls.py&#10;index.html&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/index.html&#10;settings.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/config/settings.py&#10;webpackdev&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;htmlwe&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;htmlwebpa&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;webpack.config&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-fontawesome/examples/webpack.config.js&#10;webpack.config.prod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.prod.js&#10;webpack.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.dev.js&#10;user_sess&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_admin_session_action.py&#10;user_model&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;user_&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_act&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_mod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;manif&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json&#10;manifest&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -850,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="450">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
         </state>
       </provider>
     </entry>
