@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5f15bd-128f-42f1-a38c-fa2e78b253cb" name="Default" comment="" />
+    <list default="true" id="8e5f15bd-128f-42f1-a38c-fa2e78b253cb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,116 +15,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user_authentication_resource.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/resources/user_authentication_resource.py">
+      <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_login_resource.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/resources/admin_login_resource.py">
+      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/paths.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="610">
+              <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/resources/urls.py">
+      <file leaf-file-name="webpackDevServer.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="121">
+              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_authentication_service.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/services/user_authentication_service.py">
+      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/paths.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_admin_session_action.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/dal/action/user_admin_session_action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="601">
+              <caret line="104" column="52" lean-forward="true" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
+        <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_admin_session_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/dal/models/user_admin_session_model.py">
+      <file leaf-file-name="webpackDevServer.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpackDevServer.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="930">
+              <caret line="62" column="74" lean-forward="true" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/urls.py">
+      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-              <folding>
-                <element signature="e#630#662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/resources/admin_urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/resources/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="363">
+              <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,6 +111,10 @@
       <find>history</find>
       <find>src</find>
       <find>HtmlWebpackPlugin</find>
+      <find>adminHtml</find>
+      <find>paths.</find>
+      <find>paths</find>
+      <find>publicHtml</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -169,11 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/models/user_role.py" />
-        <option value="$PROJECT_DIR$/user/models/visitor.py" />
-        <option value="$PROJECT_DIR$/user/models/user_to_visitor.py" />
-        <option value="$PROJECT_DIR$/user/dal/models/user_role.py" />
-        <option value="$PROJECT_DIR$/user/dal/models/user_to_visitor.py" />
         <option value="$PROJECT_DIR$/user/dal/__init__.py" />
         <option value="$PROJECT_DIR$/user/dal/models/role_capability.py" />
         <option value="$PROJECT_DIR$/user/dal/action/session_action.py" />
@@ -220,13 +172,17 @@
         <option value="$PROJECT_DIR$/accounts/resources/admin_login_resource.py" />
         <option value="$PROJECT_DIR$/user/dal/action/user_admin_session_action.py" />
         <option value="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/config/paths.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpackDevServer.config.js" />
+        <option value="$PROJECT_DIR$/new-app/node_modules/react-scripts/config/paths.js" />
+        <option value="$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpack.config.dev.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="988" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -321,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="webpack&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;urls.py&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/resources/urls.py&#10;index.html&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/index.html&#10;settings.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/config/settings.py&#10;webpackdev&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;htmlwe&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;htmlwebpa&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;webpack.config&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-fontawesome/examples/webpack.config.js&#10;webpack.config.prod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.prod.js&#10;webpack.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.dev.js&#10;user_sess&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_admin_session_action.py&#10;user_model&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;user_&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_act&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_mod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;manif&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json&#10;manifest&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json" />
+    <property name="SearchEverywhereHistoryKey" value="paths.js&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/new-app/node_modules/react-scripts/config/paths.js&#10;webpackdevserver.co&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/new-app/node_modules/react-scripts/config/webpackDevServer.config.js&#10;webpack.config.dev&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/new-app/node_modules/react-scripts/config/webpack.config.dev.js&#10;webpack&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;urls.py&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/resources/urls.py&#10;index.html&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/index.html&#10;settings.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/config/settings.py&#10;webpackdev&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpackDevServer.config.js&#10;htmlwe&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;htmlwebpa&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/html-webpack-plugin&#10;webpack.config&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-fontawesome/examples/webpack.config.js&#10;webpack.config.prod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.prod.js&#10;webpack.&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/node_modules/react-scripts/config/webpack.config.dev.js&#10;user_sess&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_admin_session_action.py&#10;user_model&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;user_&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_act&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/action/user_action.py&#10;user_mod&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/user/dal/models/user_model.py&#10;manif&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json&#10;manifest&#9;FILE&#9;file:///Users/martinyasavolian/Desktop/npb/public/manifest.json" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -392,10 +348,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="23" width="840" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39166668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20238096" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
@@ -449,53 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/post/dal/models/post_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/data_access/post_status_access.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/dal/models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/dal/models/post_status_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/action/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="e#169#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/post/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -690,13 +599,6 @@
         <state relative-caret-position="-2468" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -718,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -785,27 +680,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/resources/user_authentication_resource.py">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="54" column="58" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/resources/urls.py">
+    <entry file="file://$PROJECT_DIR$/config/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="480">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="97" column="14" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/dal/action/user_admin_session_action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
@@ -822,10 +728,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.dev.js">
+    <entry file="file://$PROJECT_DIR$/accounts/resources/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/resources/user_authentication_resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="110" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="104" column="52" lean-forward="true" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="74" lean-forward="true" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-app/node_modules/react-scripts/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="77" column="12" lean-forward="true" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
         </state>
       </provider>
     </entry>
