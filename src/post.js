@@ -1,7 +1,7 @@
-import Headliner from './Headliner';
-import HeadlinerWriterPost from './Headlinerwriterpost';
-import Article from './Article';
-import App from './App';
+import Headliner from './headliner';
+import HeadlinerWriterPost from './headlinerwriterpost';
+import Article from './article';
+import App from './app';
 import React, { Component } from 'react';
 import './global.css';
 import './post.css';

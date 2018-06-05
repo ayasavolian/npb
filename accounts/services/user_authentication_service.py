@@ -15,6 +15,6 @@ class UserAuthenticationService(object):
             return error
 
     @staticmethod
-    def get_auth_token(session, latest=None):
-        return UserAdminSessionAction().get_user_admin_session(session, latest=latest)
+    def get_auth_token(session, valid=None, latest=None):
+        return UserAdminSessionAction().get_user_admin_session(session, valid=valid, latest=latest)
 

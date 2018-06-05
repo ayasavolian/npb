@@ -1,6 +1,6 @@
 import './articles.css';
 import './global.css';
-import App from './App';
+import App from './app';
 import FaClockO from 'react-icons/lib/fa/clock-o';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -16,7 +16,7 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 
 class Article extends Component {
   render(){
-    let image = images[this.props.article.header_image.image_dir];
+    let image = this.props.article.header_image.image_dir;
     var articleDate = new Date(this.props.article.created_date.replace(/\s/, 'T'));
     let articleDateRef = (articleDate.getMonth()+1) + "/" + articleDate.getDay() + "/" + articleDate.getFullYear();
     let articleLink = "/post/" + this.props.article.post_name + this.props.article.post_uuid;

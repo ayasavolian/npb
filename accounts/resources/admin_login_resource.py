@@ -13,7 +13,7 @@ from django.shortcuts import render_to_response, redirect
 class AdminLogin(APIView):
     def get(self, request, format=None):
         session_id = request.COOKIES.get('sessionid')
-        user_authentication = UserAuthenticationService.get_auth_token(session=session_id, latest=True)
+        user_authentication = UserAuthenticationService.get_auth_token(session=session_id, valid=True)
         print (len(user_authentication))
         if len(user_authentication) != 0:
             print(user_authentication)

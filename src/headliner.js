@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './headliner.css';
 import './global.css';
-import HeadlinerWriterPost from './Headlinerwriterpost';
-import App from './App';
+import HeadlinerWriterPost from './headlinerwriterpost';
+import App from './app';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import FaClockO from 'react-icons/lib/fa/clock-o';
 import FaPencil from 'react-icons/lib/fa/pencil';
@@ -19,7 +19,7 @@ const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/
 
 class HeadlinerImage extends Component {
   render(){
-    let image = images[this.props.imageDir];
+    let image = this.props.imageDir;
     return(
       <div className = "headliner-image display">
         <ReactCSSTransitionGroup

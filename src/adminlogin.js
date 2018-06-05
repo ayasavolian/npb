@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './global.css';
 import './newsletter.css';
-import Login from './Login';
+import Login from './login';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function readCookie(name) {

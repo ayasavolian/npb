@@ -37,3 +37,11 @@ class UserAction(object):
             print("there is no user with this user admin %s." % self.email)
             return None
         return user
+
+    def get_user_by_id(self, user_id):
+        try:
+            user = User.objects.get(user_id=user_id)
+        except ObjectDoesNotExist as e:
+            print("there is no user with this user id %s." % self.email)
+            return None
+        return user

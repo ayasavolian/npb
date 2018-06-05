@@ -11,7 +11,7 @@ class VisitorAction(object):
         try:
             visitor = Visitor.objects.get(session_id=self.session_id)
         except ObjectDoesNotExist as e:
-            print("this visitor does not exist %s." % self.session_id)
+            print("this visitor does not exist %s." % self.session_id, e)
             return None
         return visitor
 

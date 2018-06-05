@@ -23,6 +23,6 @@ from django.contrib.auth.decorators import login_required
 urlpatterns = [
     path('api/user/', include('user.resources.urls')),
     path('api/auth/', include('accounts.resources.urls')),
-    re_path(r'^admin/session', include('accounts.resources.admin_urls')),
+    re_path(r'^admin/session(.*)', include('accounts.resources.admin_urls')),
     re_path(r'.*', TemplateView.as_view(template_name='index.html')),
 ]

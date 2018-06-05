@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import './app.css';
 import ReactDOM from 'react-dom';
 import './global.css';
-import Articles from './Articles';
-import Header from './Header';
-import Footer from './Footer';
-import Post from './Post';
+import Articles from './articles';
+import Header from './header';
+import Footer from './footer';
+import Post from './post';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -19,7 +19,7 @@ const PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -55,7 +55,7 @@ const PAYLOAD = {
     },
     header_image : {
       header_image_uuid : "TEST",
-      image_dir : "green-piggy.jpg"
+      image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
     },
     header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
     post_status : {
@@ -89,7 +89,7 @@ const PAYLOAD = {
     },
     header_image : {
       header_image_uuid : "TEST",
-      image_dir : "green-piggy.jpg"
+      image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
     },
     header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
     post_status : {
@@ -123,7 +123,7 @@ const PAYLOAD = {
     },
     header_image : {
       header_image_uuid : "TEST",
-      image_dir : "green-piggy.jpg"
+      image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
     },
     header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
     post_status : {
@@ -157,7 +157,7 @@ const PAYLOAD = {
     },
     header_image : {
       header_image_uuid : "TEST",
-      image_dir : "green-piggy.jpg"
+      image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
     },
     header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
     post_status : {
@@ -197,7 +197,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -233,7 +233,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -267,7 +267,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -301,7 +301,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -335,7 +335,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -369,7 +369,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -403,7 +403,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -437,7 +437,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -471,7 +471,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -505,7 +505,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -541,7 +541,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -575,7 +575,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -609,7 +609,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -643,7 +643,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -677,7 +677,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -711,7 +711,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -745,7 +745,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -779,7 +779,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -813,7 +813,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -847,7 +847,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -883,7 +883,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -917,7 +917,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -951,7 +951,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -985,7 +985,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1019,7 +1019,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1053,7 +1053,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1087,7 +1087,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1121,7 +1121,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1155,7 +1155,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {
@@ -1189,7 +1189,7 @@ const FULL_PAYLOAD = {
       },
       header_image : {
         header_image_uuid : "TEST",
-        image_dir : "green-piggy.jpg"
+        image_dir : "https://thumbs.dreamstime.com/b/green-piggy-bank-sea-gold-money-15196898.jpg"
       },
       header_text : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque...",
       post_status : {

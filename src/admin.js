@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
-import Header from './Header';
-import CreatePost from './CreatePost'
+import AdminHeader from './adminheader';
+import CreatePost from './createpost';
+import AdminApp from './adminapp';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -21,9 +22,8 @@ class Admin extends Component {
     return (
       <Router>
         <div>
-          <Switch>
-            <Route exact path="/" component={CreatePost} />
-          </Switch>
+          <AdminHeader />
+          <AdminApp />
         </div>
       </Router>
     )

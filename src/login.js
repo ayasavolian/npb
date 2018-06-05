@@ -42,8 +42,7 @@ class Login extends Component {
     })
     .then(response => {
       if(response.status === 200){
-        console.log(response);
-        console.log("were good!");
+        window.location = "/admin/session"
       }
       else if(response.status >= 400){
         console.log("error");

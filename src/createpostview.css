@@ -1,0 +1,28 @@
+.create-post-view-container {
+	width: 100%;
+}
+
+.create-post-view-inner-container {
+}
+
+.create-post-view-left-switch {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #eeee;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+.create-post-view-right-switch {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #eeee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}

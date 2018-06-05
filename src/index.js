@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
-import App from './App';
-import AdminLogin from './AdminLogin';
-import Header from './Header';
+import App from './app';
+import AdminLogin from './adminlogin';
+import Header from './header';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -24,35 +24,32 @@ class Home extends Component {
       email: '',
       password: '',
     };
-    this.requireAuth = this.requireAuth.bind(this);
+    // this.requireAuth = this.requireAuth.bind(this);
   }
 
-  requireAuth(nextState, replace, next) {
-    let csrftoken = this.props.csrftoken;
-    console.log(csrftoken);
-    console.log("authenticating..");
-    fetch(window.location.origin + "/api/auth/user_auth", {
-      method: 'GET',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-        "X-CSRFToken": csrftoken
-      },
-      credentials: 'same-origin',
-    })
-    .then(response => response.json())
-    .then(response => {
-      if(response.status === 200){
-        console.log("were good!");
-      }
-      else if(response.status >= 400){
-        console.log("error");
-      }
-    })
-    .catch(function(error) {
-      return false
-    });
-  }
+  // requireAuth(nextState, replace, next) {
+  //   let csrftoken = this.props.csrftoken;
+  //   fetch(window.location.origin + "/api/auth/user_auth", {
+  //     method: 'GET',
+  //     headers: {
+  //       'Accept': 'application/json',
+  //       'Content-Type': 'application/json',
+  //       "X-CSRFToken": csrftoken
+  //     },
+  //     credentials: 'same-origin',
+  //   })
+  //   .then(response => response.json())
+  //   .then(response => {
+  //     if(response.status === 200){
+        
+  //     }
+  //     else if(response.status >= 400){
+  //     }
+  //   })
+  //   .catch(function(error) {
+  //     return false
+  //   });
+  // }
 
   render() {
     return (

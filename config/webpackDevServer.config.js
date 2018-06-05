@@ -79,8 +79,8 @@ module.exports = function(proxy, allowedHost) {
       rewrites: [
         { from: /^\/admin.html/, to: '/build/admin.html' },
       ]
-    }
-    public: allowedHost,
+    },
+//    private: allowedHost,
     proxy,
     before(app) {
       // This lets us open files from the runtime error overlay.

@@ -1,7 +1,7 @@
-import Note from './Note';
-import Newsletter from './Newsletter';
-import Headliner from './Headliner';
-import Article from './Article';
+import Note from './note';
+import Newsletter from './newsletter';
+import Headliner from './headliner';
+import Article from './article';
 import React, { Component } from 'react';
 import './header.css';
 import './global.css';

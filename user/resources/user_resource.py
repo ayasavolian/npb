@@ -5,6 +5,8 @@ from rest_framework.views import APIView
 from user.services.visitor_service import VisitorService
 from user.services.user_service import UserService
 
+from accounts.services.user_authentication_service import UserAuthenticationService
+
 import json
 
 
@@ -39,3 +41,12 @@ class User(APIView):
         else:
             return Response(json.dumps({"status": "okay", "message": "I think you've already signed up for our newsletter! "
                                                          "We'll be sure to keep you up to date."}), status=200)
+
+    def get(self, request):
+        user_auth = UserAuthenticationService.get_auth_token(session=request.COOKIES.get('sessionid'), valid=True, latest=True)
+        if user_auth is not None:
+            user_service = UserService()
+            serialized_user = user_service.serialize_user(user_auth.user_id)
+            return Response(serialized_user.data, status=200)
+        else:
+            return Response(status=500)

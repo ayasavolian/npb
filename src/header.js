@@ -7,7 +7,7 @@ import FaTwitter from 'react-icons/lib/fa/twitter';
 import FaBars from 'react-icons/lib/fa/bars';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import $ from 'jquery';
-import App from './App';
+import App from './app';
 
 
 
